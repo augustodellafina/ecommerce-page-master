@@ -125,8 +125,11 @@ This project is licensed under the MIT license.
 
 ## 👏 Acknowledgments
 
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/GitHub_Copilot_logo.svg" class="logo" width="120"/>
+<div align="left">
+  <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" alt="Perplexity AI Logo" width="120px">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/GitHub_Copilot_logo.svg" alt="GitHub Copilot Logo" width="120px">
+</div>
+
 - [Next.js](https://nextjs.org) - React framework
 - [Tailwind CSS](https://tailwindcss.com) - CSS framework
 - [Framer Motion](https://www.framer.com/motion/) - Animation library
