@@ -4,7 +4,7 @@ export default function Header() {
     <header className="bg-white shadow-sm">
       <nav className="mx-auto max-w-7xl px-6 py-4 flex justify-center">
         <h1 className="text-2xl font-bold text-slate-800 tracking-tight font-serif">
-          LuxeEssence
+          E-commerce Page Master
         </h1>
       </nav>
     </header>

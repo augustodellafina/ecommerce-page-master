@@ -10,9 +10,9 @@ E-commerce Page Master is a modern e-commerce pagination application developed w
 - **API Integration** - Dynamic data consumption via Apidog
 - **Responsive Design** - Optimized experience for all devices
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/12345678/example-screenshot-1.png" alt="Product Catalog" width="45%">
-  <img src="https://user-images.githubusercontent.com/12345678/example-screenshot-2.png" alt="Product Details" width="45%">
+<div align="center" style="display: flex ; align-items: center; justify-content: space-between;">
+  <img src="https://github.com/augustodellafina/ecommerce-page-master/blob/6f0585656f9c81d9bec9ce53c7748d8549a4f78c/public/cover-1.png" alt="Product Catalog" width="47.5%">
+  <img src="https://github.com/augustodellafina/ecommerce-page-master/blob/6f0585656f9c81d9bec9ce53c7748d8549a4f78c/public/cover-2.png" alt="Product Details" width="47.5%">
 </div>
 
 ## 🚀 Technologies
@@ -69,14 +69,14 @@ The project uses Apidog as a mock API service. To configure:
 2. Import the API collection from the `/docs/apidog-collection.json` directory
 3. Update the API token in `.env.local`:
 ```
-NEXT_PUBLIC_API_URL=https://mock.apidog.com/m1/911013-893347-default
-NEXT_PUBLIC_API_TOKEN=TVQmaFxwDYIu3W7jcCUHV
+NEXT_PUBLIC_API_URL=
+NEXT_PUBLIC_API_TOKEN=
 ```
 
 ## 📱 Demo
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/12345678/example-demo.gif" alt="Application demo" width="70%">
+  <img src="https://github.com/augustodellafina/ecommerce-page-master/blob/6f0585656f9c81d9bec9ce53c7748d8549a4f78c/public/e-commerce-page-master.gif" alt="Application demo" width="80%">
 </div>
 
 ## 🧪 Tests
@@ -125,9 +125,9 @@ This project is licensed under the MIT license.
 
 ## 👏 Acknowledgments
 
-<div align="left">
-  <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" alt="Perplexity AI Logo" width="120px">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/GitHub_Copilot_logo.svg" alt="GitHub Copilot Logo" width="120px">
+<div align="left" style="display: flex ; align-items: center; justify-content: space-between; width: 256px;">
+  <a href="https://www.perplexity.ai/" target="_blank"><img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" alt="Perplexity AI Logo" width="120px"></a>
+  <a href="https://github.com/features/copilot" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/GitHub_Copilot_logo.svg" alt="GitHub Copilot Logo" width="120px"></a>
 </div>
 
 - [Next.js](https://nextjs.org) - React framework
@@ -143,8 +143,4 @@ This project is licensed under the MIT license.
     </a>
   </p>
 </div>
-<div style="text-align: left">⁂</div>
 
-[^1]: pplx-full-logo-primary-dark@2x.png
-
-[^2]: pplx-full-logo-primary-dark@2x.png
