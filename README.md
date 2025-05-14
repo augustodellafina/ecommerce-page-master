@@ -1,167 +1,147 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
+# Premium Products E-commerce Page Master
 
-# E-commerce Página de Produtos Premium
+E-commerce Page Master is a modern e-commerce pagination application developed with Next.js, TypeScript, Material UI, and API integration. This project demonstrates front-end development best practices, including fluid animations, state management, and responsive design.
 
-LuxeEssence é uma aplicação de e-commerce moderna desenvolvida com Next.js, TypeScript, Material UI e integração com API. Este projeto demonstra boas práticas de desenvolvimento front-end, incluindo animações fluidas, gerenciamento de estado, e design responsivo.
+## 🌟 Features
 
-## 🌟 Funcionalidades
-
-- **Catálogo de Produtos Premium** - Visualização elegante de produtos de luxo
-- **Detalhes do Produto** - Expansão de cards com animação usando Framer Motion
-- **Favoritos** - Sistema de favoritos persistente com localStorage
-- **Integração com API** - Consumo de dados dinâmicos via Apidog
-- **Design Responsivo** - Experiência otimizada para todos os dispositivos
+- **Premium Product Catalog** - Elegant display of luxury products
+- **Product Details** - Card expansion with animations using Framer Motion
+- **Favorites** - Persistent favorites system with localStorage
+- **API Integration** - Dynamic data consumption via Apidog
+- **Responsive Design** - Optimized experience for all devices
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/12345678/example-screenshot-1.png" alt="Catálogo de Produtos" width="45%">
-  <img src="https://user-images.githubusercontent.com/12345678/example-screenshot-2.png" alt="Detalhes do Produto" width="45%">
+  <img src="https://user-images.githubusercontent.com/12345678/example-screenshot-1.png" alt="Product Catalog" width="45%">
+  <img src="https://user-images.githubusercontent.com/12345678/example-screenshot-2.png" alt="Product Details" width="45%">
 </div>
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-- **Next.js 14** - Framework React com App Router
-- **TypeScript** - Tipagem estática para código mais seguro
-- **Tailwind CSS** - Estilização moderna e responsiva
-- **Framer Motion** - Animações fluidas e interativas
-- **Heroicons** - Ícones elegantes e consistentes
-- **Apidog** - Mock API para desenvolvimento
-
-
-## 📋 Pré-requisitos
-
-- Node.js 18.x ou superior
-- npm ou yarn
+- **Next.js 14** - React framework with App Router
+- **TypeScript** - Static typing for safer code
+- **Tailwind CSS** - Modern and responsive styling
+- **Framer Motion** - Fluid and interactive animations
+- **Heroicons** - Elegant and consistent icons
+- **Apidog** - Mock API for development
 
 
-## 🛠️ Instalação
+## 📋 Prerequisites
 
-1. Clone o repositório:
+- Node.js 18.x or higher
+- npm or yarn
 
+## 🛠️ Installation
+
+1. Clone the repository:
 ```bash
-git clone https://github.com/seu-usuario/luxe-essence.git
+git clone https://github.com/augustodellafina/ecommerce-page-master.git
 cd luxe-essence
 ```
 
-2. Instale as dependências:
-
+2. Install dependencies:
 ```bash
 npm install
-# ou
+# or
 yarn
 ```
 
-3. Configure as variáveis de ambiente:
-
+3. Configure environment variables:
 ```bash
 cp .env.example .env.local
 ```
 
-Edite `.env.local` com suas configurações.
-4. Inicie o servidor de desenvolvimento:
+Edit `.env.local` with your settings.
 
+4. Start the development server:
 ```bash
 npm run dev
-# ou
+# or
 yarn dev
 ```
 
-5. Acesse [http://localhost:3000](http://localhost:3000) no seu navegador.
+5. Access [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 🔧 Configuração da API
+## 🔧 API Configuration
 
-O projeto utiliza o Apidog como serviço de mock API. Para configurar:
+The project uses Apidog as a mock API service. To configure:
 
-1. Crie uma conta no [Apidog](https://apidog.com)
-2. Importe a coleção de API do diretório `/docs/apidog-collection.json`
-3. Atualize o token de API em `.env.local`:
-
+1. Create an account on [Apidog](https://apidog.com)
+2. Import the API collection from the `/docs/apidog-collection.json` directory
+3. Update the API token in `.env.local`:
 ```
 NEXT_PUBLIC_API_URL=https://mock.apidog.com/m1/911013-893347-default
 NEXT_PUBLIC_API_TOKEN=TVQmaFxwDYIu3W7jcCUHV
 ```
 
-
-## 📱 Demonstração
+## 📱 Demo
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/12345678/example-demo.gif" alt="Demonstração da aplicação" width="70%">
+  <img src="https://user-images.githubusercontent.com/12345678/example-demo.gif" alt="Application demo" width="70%">
 </div>
 
-## 🧪 Testes
+## 🧪 Tests
 
-Execute os testes automatizados:
+Run automated tests:
 
 ```bash
 npm test
-# ou
+# or
 yarn test
 ```
 
+## 📦 Production Build
 
-## 📦 Build de Produção
-
-Para gerar uma build de produção:
+To generate a production build:
 
 ```bash
 npm run build
-# ou
+# or
 yarn build
 ```
 
-
 ## 🌐 Deploy
 
-O projeto está configurado para deploy na Vercel. Basta conectar seu repositório GitHub à sua conta Vercel.
+The project is configured for deployment on Vercel. Simply connect your GitHub repository to your Vercel account.
 
-[
-
-## 🗂️ Estrutura do Projeto
+## 🗂️ Project Structure
 
 ```
 src/
-├── app/                    # App Router do Next.js
-│   ├── components/         # Componentes reutilizáveis
-│   │   ├── Header.tsx      # Cabeçalho da aplicação
-│   │   ├── Footer.tsx      # Rodapé da aplicação
-│   │   └── Product/        # Componentes relacionados a produtos
-│   ├── layout.tsx          # Layout principal
-│   └── page.tsx            # Página inicial
-├── data/                   # Mocks da API
-├── types/                  # Definições de tipos TypeScript
-└── utils/                  # Funções utilitárias
+├── app/                    # Next.js App Router
+│   ├── components/         # Reusable components
+│   │   ├── Header.tsx      # Application header
+│   │   ├── Footer.tsx      # Application footer
+│   │   └── Product/        # Product-related components
+│   ├── layout.tsx          # Main layout
+│   └── page.tsx            # Home page
+├── data/                   # API mocks
+├── types/                  # TypeScript type definitions
+└── utils/                  # Utility functions
 ```
 
-## 🤝 Contribuição
+## 📄 License
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+This project is licensed under the MIT license.
 
-1. Fork o projeto
-2. Crie sua branch de feature (`git checkout -b feature/amazing-feature`)
-3. Commit suas mudanças (`git commit -m 'Add some amazing feature'`)
-4. Push para a branch (`git push origin feature/amazing-feature`)
-5. Abra um Pull Request
+## 👏 Acknowledgments
 
-## 📄 Licença
+<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/GitHub_Copilot_logo.svg" class="logo" width="120"/>
+- [Next.js](https://nextjs.org) - React framework
+- [Tailwind CSS](https://tailwindcss.com) - CSS framework
+- [Framer Motion](https://www.framer.com/motion/) - Animation library
+- [Apidog](https://apidog.com) - Mock API platform
 
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-## 👏 Agradecimentos
-
-- [Next.js](https://nextjs.org) - Framework React
-- [Tailwind CSS](https://tailwindcss.com) - Framework CSS
-- [Framer Motion](https://www.framer.com/motion/) - Biblioteca de animações
-- [Apidog](https://apidog.com) - Plataforma de mock API
-
----
-
-<div align="center">
-  <p>Desenvolvido por <a href="https://github.com/seu-usuario">Seu Nome</a></p>
+<div align="left">
+  <p>Developed by <a href="https://github.com/augustodellafina">Augusto Dellafina</a></p>
   <p>
-    <a href="https://twitter.com/seu-usuario">
-      <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter">
-    </a>
-    <a href="https://linkedin.com/in/seu-usuario">
+    <a href="https://linkedin.com/in/augustofchagas">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
     </a>
   </p>
 </div>
+<div style="text-align: left">⁂</div>
+
+[^1]: pplx-full-logo-primary-dark@2x.png
+
+[^2]: pplx-full-logo-primary-dark@2x.png
