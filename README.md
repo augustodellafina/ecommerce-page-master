@@ -11,8 +11,8 @@ E-commerce Page Master is a modern e-commerce pagination application developed w
 - **Responsive Design** - Optimized experience for all devices
 
 <div align="center" style="display: flex ; align-items: center; justify-content: space-between;">
-  <img src="https://github.com/augustodellafina/ecommerce-page-master/blob/6f0585656f9c81d9bec9ce53c7748d8549a4f78c/public/cover-1.png" alt="Product Catalog" width="47.5%">
-  <img src="https://github.com/augustodellafina/ecommerce-page-master/blob/6f0585656f9c81d9bec9ce53c7748d8549a4f78c/public/cover-2.png" alt="Product Details" width="47.5%">
+  <img src="https://github.com/augustodellafina/ecommerce-page-master/blob/dc60f2b08e3a6a83db2fef86cbfa7790c22eaeb6/public/cover-1.png" alt="Product Catalog" width="47.5%">
+  <img src="https://github.com/augustodellafina/ecommerce-page-master/blob/dc60f2b08e3a6a83db2fef86cbfa7790c22eaeb6/public/cover-2.png" alt="Product Details" width="47.5%">
 </div>
 
 ## 🚀 Technologies
@@ -76,7 +76,7 @@ NEXT_PUBLIC_API_TOKEN=
 ## 📱 Demo
 
 <div align="center">
-  <img src="https://github.com/augustodellafina/ecommerce-page-master/blob/6f0585656f9c81d9bec9ce53c7748d8549a4f78c/public/e-commerce-page-master.gif" alt="Application demo" width="80%">
+  <img src="https://github.com/augustodellafina/ecommerce-page-master/blob/dc60f2b08e3a6a83db2fef86cbfa7790c22eaeb6/public/e-commerce-page-master.gif" alt="Application demo" width="80%">
 </div>
 
 ## 🧪 Tests
