@@ -10,9 +10,9 @@ E-commerce Page Master is a modern e-commerce pagination application developed w
 - **API Integration** - Dynamic data consumption via Apidog
 - **Responsive Design** - Optimized experience for all devices
 
-<div align="center" style="display: flex ; align-items: center; justify-content: space-between;">
-  <img src="https://github.com/augustodellafina/ecommerce-page-master/blob/dc60f2b08e3a6a83db2fef86cbfa7790c22eaeb6/public/cover-1.png" alt="Product Catalog" width="47.5%">
-  <img src="https://github.com/augustodellafina/ecommerce-page-master/blob/dc60f2b08e3a6a83db2fef86cbfa7790c22eaeb6/public/cover-2.png" alt="Product Details" width="47.5%">
+<div align="center" style="display:flex; align-items:center; justify-content:space-between;">
+  <img src="https://github.com/augustodellafina/ecommerce-page-master/blob/dc60f2b08e3a6a83db2fef86cbfa7790c22eaeb6/public/cover-1.png" alt="Product Catalog" width="50%">
+  <img src="https://github.com/augustodellafina/ecommerce-page-master/blob/dc60f2b08e3a6a83db2fef86cbfa7790c22eaeb6/public/cover-2.png" alt="Product Details" width="50%">
 </div>
 
 ## 🚀 Technologies
@@ -76,7 +76,7 @@ NEXT_PUBLIC_API_TOKEN=
 ## 📱 Demo
 
 <div align="center">
-  <img src="https://github.com/augustodellafina/ecommerce-page-master/blob/dc60f2b08e3a6a83db2fef86cbfa7790c22eaeb6/public/e-commerce-page-master.gif" alt="Application demo" width="80%">
+  <img src="https://github.com/augustodellafina/ecommerce-page-master/blob/dc60f2b08e3a6a83db2fef86cbfa7790c22eaeb6/public/e-commerce-page-master.gif" alt="Application demo" width="100%">
 </div>
 
 ## 🧪 Tests
@@ -125,8 +125,10 @@ This project is licensed under the MIT license.
 
 ## 👏 Acknowledgments
 
-<div align="left" style="display: flex ; align-items: center; justify-content: space-between; width: 256px;">
+<div align="left">
   <a href="https://www.perplexity.ai/" target="_blank"><img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" alt="Perplexity AI Logo" width="120px"></a>
+</div>
+<div align="left">
   <a href="https://github.com/features/copilot" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/GitHub_Copilot_logo.svg" alt="GitHub Copilot Logo" width="120px"></a>
 </div>
 
