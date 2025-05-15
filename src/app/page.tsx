@@ -80,21 +80,21 @@ export default function Home() {
   return (
     <main className="mx-auto max-w-7xl flex-1 px-6 py-12 w-full">
       <div className="mb-12 text-center space-y-4">
-        <h2 className="text-4xl font-light text-slate-800 font-serif">Coleção Outono</h2>
+        <h2 className="text-4xl font-light text-slate-800 font-serif">Autumn Collection</h2>
         <p className="mt-4 text-slate-600 font-serif italic">
-          Peças que redefinem a elegância atemporal
+          Pieces that redefine timeless elegance
         </p>
       </div>
 
       {/* Mensagens e Cards */}
       {loading ? (
-        <div className="text-center py-8">Carregando produtos...</div>
+        <div className="text-center py-8">Loading products...</div>
       ) : error ? (
         <div className="text-center py-8 text-red-600">{error}</div>
       ) : products.length === 0 ? (
         <div className="text-center py-16 text-slate-500 text-lg">
-          Nenhum produto encontrado no momento.<br />
-          Volte mais tarde ou tente atualizar a página.
+          No products found at this time.<br />
+          Please come back later or try refreshing the page.
         </div>
       ) : (
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
