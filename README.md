@@ -1,6 +1,6 @@
 # Premium Products E-commerce Page Master
 
-E-commerce Page Master is a modern e-commerce pagination application developed with Next.js, TypeScript, Material UI, and API integration. This project demonstrates front-end development best practices, including fluid animations, state management, and responsive design.
+E-commerce Page Master is a modern e-commerce pagination application developed with Next.js, TypeScript, Tailwind CSS, and API integration. This project demonstrates front-end development best practices, including fluid animations, state management, and responsive design.
 
 ## 🌟 Features
 
