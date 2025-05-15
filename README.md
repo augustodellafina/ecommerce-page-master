@@ -17,7 +17,7 @@ E-commerce Page Master is a modern e-commerce pagination application developed w
 
 ## 🚀 Technologies
 
-- **Next.js 14** - React framework with App Router
+- **Next.js 15** - React framework with App Router
 - **TypeScript** - Static typing for safer code
 - **Tailwind CSS** - Modern and responsive styling
 - **Framer Motion** - Fluid and interactive animations
@@ -78,16 +78,6 @@ NEXT_PUBLIC_API_TOKEN=
 <div align="center">
   <img src="https://github.com/augustodellafina/ecommerce-page-master/blob/dc60f2b08e3a6a83db2fef86cbfa7790c22eaeb6/public/e-commerce-page-master.gif" alt="Application demo" width="100%">
 </div>
-
-## 🧪 Tests
-
-Run automated tests:
-
-```bash
-npm test
-# or
-yarn test
-```
 
 ## 📦 Production Build
 
