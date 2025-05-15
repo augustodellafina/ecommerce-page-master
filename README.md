@@ -27,7 +27,7 @@ E-commerce Page Master is a modern e-commerce pagination application developed w
 
 ## 📋 Prerequisites
 
-- Node.js 18.x or higher
+- Node.js 20.x or higher
 - npm or yarn
 
 ## 🛠️ Installation
