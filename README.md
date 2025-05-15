@@ -11,8 +11,8 @@ E-commerce Page Master is a modern e-commerce pagination application developed w
 - **Responsive Design** - Optimized experience for all devices
 
 <div align="center" style="display:flex; align-items:center; justify-content:space-between;">
-  <img src="https://github.com/augustodellafina/ecommerce-page-master/blob/dc60f2b08e3a6a83db2fef86cbfa7790c22eaeb6/public/cover-1.png" alt="Product Catalog" width="50%">
-  <img src="https://github.com/augustodellafina/ecommerce-page-master/blob/dc60f2b08e3a6a83db2fef86cbfa7790c22eaeb6/public/cover-2.png" alt="Product Details" width="50%">
+  <img src="https://github.com/augustodellafina/ecommerce-page-master/blob/dc60f2b08e3a6a83db2fef86cbfa7790c22eaeb6/public/cover-1.png" alt="Product Catalog" width="48.5%">
+  <img src="https://github.com/augustodellafina/ecommerce-page-master/blob/dc60f2b08e3a6a83db2fef86cbfa7790c22eaeb6/public/cover-2.png" alt="Product Details" width="48.5%">
 </div>
 
 ## 🚀 Technologies
