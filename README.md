@@ -35,7 +35,7 @@ E-commerce Page Master is a modern e-commerce pagination application developed w
 1. Clone the repository:
 ```bash
 git clone https://github.com/augustodellafina/ecommerce-page-master.git
-cd luxe-essence
+cd ecommerce-page-master
 ```
 
 2. Install dependencies:
@@ -66,7 +66,7 @@ yarn dev
 The project uses Apidog as a mock API service. To configure:
 
 1. Create an account on [Apidog](https://apidog.com)
-2. Import the API collection from the `/docs/apidog-collection.json` directory
+2. Import the API collection from the `/docs/ecommerce-page-master-apidog.json` directory
 3. Update the API token in `.env.local`:
 ```
 NEXT_PUBLIC_API_URL=

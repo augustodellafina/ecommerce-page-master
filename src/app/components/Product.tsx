@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { HeartIcon as HeartOutline } from '@heroicons/react/24/outline'
 import {HeartIcon as HeartSolid} from '@heroicons/react/24/solid'
 
-// Componentes Reutilizáveis (src/app/components/Product)
+// Components (src/app/components/Product)
 
 export const CloseButton = ({ onClick }: { onClick: () => void }) => (
   <motion.button
@@ -24,7 +24,7 @@ export const CloseButton = ({ onClick }: { onClick: () => void }) => (
   </motion.button>
 );
 
-// 1. Imagem do Produto
+// 1. Product Image
 export const ProductImage = ({ src, alt, layoutId }: { 
   src: string; 
   alt: string;
@@ -46,7 +46,7 @@ export const ProductImage = ({ src, alt, layoutId }: {
   </motion.div>
 );
 
-// 2. Categoria
+// 2. Category
 export const ProductCategory = ({ category, layoutId, inCard = true }: { 
   category: string;
   layoutId?: string;
@@ -61,7 +61,7 @@ export const ProductCategory = ({ category, layoutId, inCard = true }: {
   </motion.span>
 );
 
-// 3. Preço
+// 3. Price
 export const ProductPrice = ({price, oldPrice, layoutId}: {
   price: number;
   oldPrice?: number;
@@ -74,11 +74,11 @@ export const ProductPrice = ({price, oldPrice, layoutId}: {
   >
     <div className="flex items-baseline gap-3">
       <span className="text-2xl font-light">
-        {price.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}
+        {price.toLocaleString('pt-PT', { style: 'currency', currency: 'EUR' })}
       </span>
       {oldPrice && (
         <span className="text-sm text-slate-400 line-through">
-          {oldPrice.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}
+          {oldPrice.toLocaleString('pt-PT', { style: 'currency', currency: 'EUR' })}
         </span>
       )}
     </div>
@@ -90,7 +90,7 @@ export const ProductPrice = ({price, oldPrice, layoutId}: {
   </motion.div>
 );
 
-// 4. Botão de Favoritos
+// 4. Favorite Button
 export const FavoriteButton = ({ 
   isFavorite,
   toggle,

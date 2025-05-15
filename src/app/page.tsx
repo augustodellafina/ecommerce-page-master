@@ -28,10 +28,10 @@ export default function Home() {
     const fetchProducts = async () => {
       try {
         const response = await fetch(
-          'https://mock.apidog.com/m1/911013-893347-default/products',
+          process.env.NEXT_PUBLIC_API_URL as string,
           {
             headers: {
-              'api_key': 'TVQmaFxwDYIu3W7jcCUHV'
+              'api_key': process.env.NEXT_PUBLIC_API_TOKEN as string
             }
           }
         )
@@ -63,6 +63,7 @@ export default function Home() {
 
     fetchProducts()
   }, [])
+
 
   const toggleFavorite = (id: number) => {
     setFavorites(prev => {
